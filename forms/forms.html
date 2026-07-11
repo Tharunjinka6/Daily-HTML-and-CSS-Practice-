@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <form action="Results.html" method="GET"></form>
+        <fieldset>
+            <legend>User personal info</legend>
+            
+                <div>
+                    <label for="name">Enter your full name</label><br>
+                    <input type="text" name="name" id="name" placeholder="Username" required>
+                </div>
+                <div>
+                    <label for="Email">Enter Your Email</label><br>
+                    <input type="email" name="Email" id="Email" placeholder="Enter your Password" required>
+                </div>
+                <div>
+                    <label for="password">Enter your Password</label><br>
+                    <input type="password" name="password" id="password" placeholder="Enter your Password" required>
+                </div>
+                <div>
+                    <label for="confirm password">Confirm your Password</label><br>
+                    <input type="password" name=" Confirm password" id="confirm password" placeholder="Confirm your Password" required>
+                </div>
+                <div>
+                    Enter your Gender<br>
+                    <label for="Male">Male</label>
+                    <input type="radio" name="Gender" id="Male">
+                    <label for="Female">Female</label>
+                    <input type="radio" name="Gender" id="Female">
+                </div>
+                <div>
+                    <label for="dob">Enter your Date of Birth</label><br>
+                    <input type="date" name="Date of Birth" id="dob" min="2003-01-01" required>
+                </div>
+                <div>
+                    <label for="Address">Enter your Address</label><br>
+                    <input type="text" name="Address" id="Address" required placeholder="Enter your Address">
+                </div>
+                <div>
+                    <button type="reset">Reset</button>
+                    <button type="submit">submit</button>
+                </div>
+        </fieldset>
+    </form>
+</body>
+</html>
